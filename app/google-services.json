@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559502375814",
+    "project_id": "work-intergrated",
+    "storage_bucket": "work-intergrated.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559502375814:android:3543294f75182297038a07",
+        "android_client_info": {
+          "package_name": "com.example.workintergrated"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559502375814-av82u4je63p5eqrmji4rq67t7c4lu1dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDqILT89dizrxT-I8Zr1VKCCR9zJIps7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559502375814-av82u4je63p5eqrmji4rq67t7c4lu1dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

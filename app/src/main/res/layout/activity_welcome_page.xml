@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".WelcomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOME PAGE"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/about" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT US"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muru Solution is a private company. Muru Solution balanced, Prospectus Company whose purpose is to transform the construction standards and measures of our communities. The company was established in 2018 and was amended to mainly focus on its core and fundamental business in construction, cleaning and logistics our core strategy is to create a long term value through construction, cleaning and logistics development. The company’s main business is construction, civil engineering cleaning and logistics."
+            android:textColor="#090909"
+            android:textSize="14dp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</ScrollView>
+

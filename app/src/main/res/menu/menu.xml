@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!---adding item with dots-->
+    <item
+        android:title="ENQUIRE"
+        android:id="@+id/title1"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="HOME"
+        android:id="@+id/title2"
+        app:showAsAction="never"/>
+
+    <!---adding items with icons-->
+    <item
+        android:title="Contact Us"
+        android:icon="@drawable/ic_call"
+        android:id="@+id/contactUs"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Gallery"
+        android:icon="@drawable/ic_gallery"
+        android:id="@+id/gallery"
+        app:showAsAction="always"/>
+
+
+
+</menu>

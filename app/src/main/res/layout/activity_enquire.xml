@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Enquire"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND US A MESSAGE AND WE'LL GET BACK TO YOU BEFORE 24HOURS"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        android:id="@+id/tvTv"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTv"
+        android:hint="NAME"
+        android:textColorHint="#090909"
+        android:textColor="#090909"
+        android:layout_centerInParent="true"
+        android:id="@+id/edName"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edName"
+        android:hint="SURNAME"
+        android:textColorHint="#090909"
+        android:textColor="#090909"
+        android:layout_centerInParent="true"
+        android:id="@+id/edSurname"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edSurname"
+        android:hint="NUMBER"
+        android:textColorHint="#090909"
+        android:textColor="#090909"
+        android:layout_centerInParent="true"
+        android:id="@+id/edNumber"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edNumber"
+        android:hint="EMAIL"
+        android:textColorHint="#090909"
+        android:textColor="#090909"
+        android:layout_centerInParent="true"
+        android:id="@+id/edEmail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edEmail"
+        android:hint="MESSAGE"
+        android:textColorHint="#090909"
+        android:textColor="#090909"
+        android:layout_centerInParent="true"
+        android:id="@+id/edMessage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edMessage"
+        android:textColor="#090909"
+       android:text="SEND DETAILS"
+        android:id="@+id/buttonEnquire"/>
+
+</RelativeLayout>
